@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+
+
+.App {
+  text-align: center;
+  background-color: $color1;
+  width: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-flow:wrap column;
+  font-size: 1.5rem;
+  h1{
+    background-color: $color2;
+    color: $color1;
+    border-radius: 0 30px;
+    padding:6px 30px;
+    margin: 10px auto;
+    box-shadow: 0 0 15px $color5;
+  }
+
+  p{
+    background-color: $color2;
+  }
+  button{
+    font-size: 1.5rem;
+  }
+}
