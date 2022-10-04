@@ -1,4 +1,14 @@
 @import '../../variables.scss';
 footer{
     background-color: $color3;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: auto;
+    justify-content: space-around;
+    div{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        text-shadow: 0 0 30px white;
+    }
 }
