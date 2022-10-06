@@ -5,10 +5,18 @@ footer{
     flex-flow: row wrap;
     margin-top: auto;
     justify-content: space-around;
+    box-shadow: 0 0 10px $color5;
     div{
         display: flex;
         flex-flow: column wrap;
         justify-content: space-evenly;
         text-shadow: 0 0 30px white;
+    }
+}
+@media (max-width:600px){
+    footer{
+        flex-flow: column wrap;
+        min-height: 100vh;
+        
     }
 }

@@ -12,7 +12,7 @@ function Footer() {
             <div>
                 <h2>Social Media</h2>
                 <ul>
-                    <li>linkedin</li>
+                    <li><a href='https://www.github.com/PedroCazala' target="_blank" rel='noreferrer'>linkedin</a></li>
                     <li>instagram</li>
                     <li>github</li>
                 </ul>
@@ -21,7 +21,7 @@ function Footer() {
                 <h2>contacto</h2>
                 email
                 <br />
-                <Button1 text={'enviar'}></Button1>
+                <Button1 text={'enviar'}></Button1> 
             </div>
         </footer>
     )

@@ -8,3 +8,8 @@
         color: $color3;
     }
 }
+@media(max-width:600px){
+    .TextButton{
+        font-size: 2.5rem;
+    }
+}
