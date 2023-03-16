@@ -1,0 +1,9 @@
+.Contacto {
+    width: 80%;
+    margin: 10px auto;
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}

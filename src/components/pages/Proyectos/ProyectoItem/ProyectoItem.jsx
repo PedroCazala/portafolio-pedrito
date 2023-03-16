@@ -40,8 +40,11 @@ function ProyectoItem({proyecto}) {
                 DESCRIPCION logos, con componentes cada uno que al abrirse explica el programa o lenguaje y habilidad personal en la misma
             </div>
             <div className="buttons">
-                <Button1 className='visitSite' text={'Visitar sitio'}/>
+                <Button1 className='visitSite' text={'Visitar sitio'} link={proyecto.link}/>
             </div>
+            {/* <div className='redSocial'>
+                <RedSocial redSocial={}/>
+            </div> */}
             {/* <div>flecha abajo</div> */}
         </div>
     )

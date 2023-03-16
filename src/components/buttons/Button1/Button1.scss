@@ -1,14 +1,18 @@
 @import '../../../variables.scss';
 .button1{
     background-color: transparent;
-    color: $color4;
     border:0;
     border-radius: 6px;
     margin: auto;
     border: 2px solid $color4;
+    a{
+        color: $color4;
+    }
     &:hover{
         background-color: $color4;
-        color: $color1;
+        a{
+            color: $color1;
+        }
         cursor: pointer;
     }
 }

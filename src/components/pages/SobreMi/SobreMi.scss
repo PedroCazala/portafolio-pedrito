@@ -1,0 +1,17 @@
+.SobreMi{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    .contenido{
+        // display: grid;
+        // grid-template-columns: 1frs 3fr;
+        img{
+            object-fit:contain;
+            width: 30vw;
+            border-radius: 14px;
+            box-shadow: white -3px 3px 13px;
+            float: left;
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,9 +1,15 @@
 @import '../../../../variables.scss';
-// .ProyectoContainer{
-//     scroll-snap-type: y mandatory;
-//     overflow-y:scroll ;
-//     height: 100vh ;
-//     div{
-//         scroll-snap-align:  start;
-//     }
-// }
+.ProyectoContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 15px;
+    a{
+        text-decoration: none;
+    }
+    .card{
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}

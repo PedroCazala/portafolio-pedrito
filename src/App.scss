@@ -1,35 +1,24 @@
-@import './variables.scss';
-
-
+@import "./variables.scss";
 
 .App {
-  text-align: center;
-  background-color: $color1;
-  width: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-flow:wrap column;
-  // font-size: 1.5rem;
-  min-height: 100vh;
-  h1{
-    background-color: $color1;
-    color: $color5;
-    border-radius: 0 30px;
-    padding:6px 30px;
-    margin: 10px auto;
-    box-shadow: 0 0 15px $color5;
-  }
-  h2{
-    color: $color4;
-  }
-  
-  p{
-    background-color: $color2;
-  }
-  button{
-    font-size: 1.5rem;
-  }
-  a{
-    text-decoration: none;
-  }
+    text-align: center;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: nowrap column;
+    min-height: 100vh;
+    justify-content: space-between;
+
+    main {
+        min-height: 100%;
+        button {
+            margin: 10px auto;
+        }
+    }
+
+    nav {
+        li:hover {
+            transform: scale(1.15);
+        }
+    }
 }

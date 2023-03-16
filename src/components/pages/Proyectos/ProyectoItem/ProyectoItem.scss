@@ -15,6 +15,7 @@ $altoVideo:(100/1.76);
     "description technologies"
     "buttons buttons"
     ;
+    border-bottom: solid $color3 20px;
 
     .logoTitle{
         grid-area: logoTitle;
@@ -52,7 +53,6 @@ $altoVideo:(100/1.76);
     }
     .carouselPhotos{
         grid-area: carouselPhotos;
-        background-color: red;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -62,26 +62,15 @@ $altoVideo:(100/1.76);
             max-height: 315px;
             object-fit: contain;
         }
-        // width: 100%;
-        // height: 100%;
-        // .carousel {
-        //     width:500px;
-        //     height:300px;
-        //     margin: auto;
-        //     display: flex;
-        //     justify-content: center;
-        //     align-items: center;
-        //     img{
-        //         height: 100%;
-        //         object-fit: contain;
-        //     }
-        // }
     }
     .technologies{
         grid-area: technologies;
     }
     .buttons{
         grid-area: buttons;
+    }
+    h1{
+        margin: auto;
     }
 
 }
@@ -100,18 +89,26 @@ $altoVideo:(100/1.76);
                 max-width: 50vw;
             }
         }
-        .video{
-
-            // height: 168.75px;
-        }
     }
 }
 .ProyectoItem1{
-    background-color: $color2;
+    background-color: $color1;
+    color: $color2;
+    h1{
+        color: $color2;
+    }
 }
 .ProyectoItem2{
-    background-color: $color3;
+    background-color: rgb(24, 24, 24);
+    color: $color3;
+    h1{
+        color: $color3;
+    }
 }
 .ProyectoItem3{
-    background-color: $color4;
+    background-color: $color1;
+    color: $color4;
+    h1{
+        color: $color4;
+    }
 }

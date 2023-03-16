@@ -1,5 +1,4 @@
 // import React, { useState } from "react";
-import { Ratio } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
 function ImgCarrousel() {

@@ -1,16 +1,36 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Button1 from "../buttons/Button1/Button1";
-import "./Footer.scss";
-function Footer() {
+import "./Contacto.scss";
+import Form from "react-bootstrap/Form";
+import { FloatingLabel } from "react-bootstrap";
+
+export default function Contacto() {
     return (
-        <footer className="bg-dark">
-            <div>
-                <Link to="/">Home</Link>
-                Sobre mi
-            </div>
-            <nav>
-                <h2>Social Media</h2>
+        <div className="Contacto">
+            <h1>Contacto</h1>
+
+            <Form>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Control
+                        type="email"
+                        placeholder="Ingresa tu e-mail"
+                    />
+                </Form.Group>
+
+                <FloatingLabel controlId="floatingTextarea2" label="Mensaje:">
+                    <Form.Control
+                        as="textarea"
+                        placeholder="Leave a comment here"
+                        style={{ height: "100px" }}
+                    />
+                </FloatingLabel>
+
+                <button type="submit" className="btn btn-primary">
+                    Enviar
+                </button>
+            </Form>
+            <hr />
+            <div className="page-header">
+                <h2>También puedes contactarme a traves de:</h2>
+
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <a
@@ -43,15 +63,7 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
-            </nav>
-            <div>
-                <h2>contacto</h2>
-                email
-                <br />
-                <Button1 text={"enviar"} link="/contacto"></Button1>
             </div>
-        </footer>
+        </div>
     );
 }
-
-export default Footer;

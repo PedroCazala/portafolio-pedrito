@@ -1,59 +1,46 @@
-import React from 'react'
-import { IProyectoWeb } from '../../../../interfaces/proyectoWeb.iterface'
-import ProyectoItem from '../ProyectoItem/ProyectoItem'
-import './ProyectosDesarrolloWebContainer.scss'
+import React from "react";
+import { Link } from "react-router-dom";
+// import ProyectoItem from '../ProyectoItem/ProyectoItem'
+import { proyectos } from "./arrayProyectos";
+import "./ProyectosDesarrolloWebContainer.scss";
 
-const proyectos:IProyectoWeb[] =[
-    {
-        title:'Rayuela',
-        imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video:'https://www.youtube.com/embed/fCtrKym8Y0U',
-        images:['',''],
-        clases:'ProyectoItem1',
-        description:{
-            title:'html + css + js',
-            body:'En este proyecto...'
-        },
-        technologies:[
-            {
-                name:'html',
-                imgLogo:'',
-                description:'html es un lenguaje de maquetado que se utiliza en la creación de sitios web...'
-            }
-        ]
-    },
-    {
-        title:'No tan macho',
-        // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video:'https://www.youtube.com/embed/juxZrOVtg-c',
-        images:['',''],
-        clases:'ProyectoItem2',
-        description:{
-            title:'html + css + js',
-            body:'En este proyecto...'
-        },
-        technologies:[
-            {
-                name:'html',
-                imgLogo:'',
-                description:'html es un lenguaje de maquetado que se utiliza en la creación de sitios web...'
-            }
-        ]
-    }
-]
 function ProyectosContainer() {
     return (
-        <div className='ProyectoContainer'>
-            {/* <h1>Proyectos de desarrollo web</h1> */}
-            {proyectos.map((proyecto)=>{
-                return(
-                    <ProyectoItem /* classNumber={'ProyectoItem1'} */ proyecto={proyecto}/>
-                )
+        <div className="ProyectoContainer">
+            {proyectos.map((proyecto) => {
+                return (
+                    <Link to={`/proyecto/${proyecto.id}`} key={proyecto.id}>
+                        <div
+                            className="card border-primary mb-3"
+                            style={{ maxWidth: "20rem" }}
+                        >
+                            <div className="card-header">
+                                {proyecto.imgLogo ?
+                                <img
+                                    src={proyecto.imgLogo}
+                                    alt={`Logo de ${proyecto.title}`}
+                                    style={{
+                                        width:'40%'
+                                    }}
+                                />
+                                :
+                                proyecto.title
+                                }
+                            </div>
+                            <div className="card-body">
+                                <h4 className="card-title">
+                                    {proyecto.description.title}
+                                </h4>
+                                <p className="card-text">
+                                    {proyecto.description.body}
+                                </p>
+                            </div>
+                        </div>
+                    </Link>
+                );
             })}
-            {/* <ProyectoItem classNumber={'ProyectoItem2'}/>
-            <ProyectoItem classNumber={'ProyectoItem3'}/> */}
         </div>
-    )
-}  
+    );
+}
 
-export default ProyectosContainer
+export default ProyectosContainer;

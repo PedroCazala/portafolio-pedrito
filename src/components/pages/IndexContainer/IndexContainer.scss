@@ -1,6 +1,33 @@
-.IndexContainer{
-    display: flex;
-    flex-flow:wrap column;
-    min-height: 102vh;
-    justify-content: center;
+.IndexContainer {
+    .imgBtns{
+
+        position: relative;
+    }
+    .ImgPedro {
+        width: 100%;
+        position:static;
+    }
+    .btnIndex {
+        position: absolute;
+        top: 45%;
+        right: 10vw;
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cel {
+        display: flex;
+    }
+    .pc {
+        display: none;
+    }
+}
+@media screen and (min-width: 450px) {
+    .cel {
+        display: none;
+    }
+    .pc {
+        display: flex;
+    }
 }
