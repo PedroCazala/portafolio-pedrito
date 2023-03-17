@@ -7,7 +7,6 @@ export const proyectos:IProyectoWeb[] =[
         imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
         video:'https://www.youtube.com/embed/fCtrKym8Y0U',
         images:['',''],
-        clases:'',
         link:'https://pedrocazala.github.io/Rayuela/',
         github:"lala",
         description:{
@@ -28,7 +27,6 @@ export const proyectos:IProyectoWeb[] =[
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
         video:'https://www.youtube.com/embed/juxZrOVtg-c',
         images:['',''],
-        clases:'',
         link:'sas',
         github:'asdas',
         description:{
@@ -45,17 +43,3 @@ export const proyectos:IProyectoWeb[] =[
     }
 ]
 
-let estado:number =0
-for(let proyecto of proyectos){
-    if(estado === 0|| estado ===3){
-        estado = 1
-        proyecto.clases =' ProyectoItem1 '
-    }else if(estado === 1){
-        estado = 2
-        proyecto.clases =' ProyectoItem2 '
-    }else if(estado === 2){
-        estado = 3
-        proyecto.clases =' ProyectoItem3 '
-    }
-}
-console.log(proyectos);

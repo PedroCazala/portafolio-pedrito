@@ -4,7 +4,6 @@ export interface IProyectoWeb{
     imgLogo?:string,
     video:string,
     images:string[],
-    clases:string,
     link:string,
     github?:string,
     description:{
