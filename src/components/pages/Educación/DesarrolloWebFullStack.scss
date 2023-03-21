@@ -1,0 +1,14 @@
+.DesarrolloWebFullStack{
+    button{
+        display: flex;
+        justify-content: center;
+    }
+    .btns{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        button{
+            margin: 10px;
+        }
+    }
+}

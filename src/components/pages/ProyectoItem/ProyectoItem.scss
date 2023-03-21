@@ -1,9 +1,9 @@
 $anchoVideo: 100%;
 $altoVideo:(100/1.76);
-@import '../../../../variables.scss';
+// @import '../../../../variables.scss';
 .ProyectoItem{
     max-width: 100vw;
-    height: 100vh;
+    min-height: 80vh;
 
     display: grid;
     align-items: center;
@@ -15,17 +15,17 @@ $altoVideo:(100/1.76);
     "description technologies"
     "buttons buttons"
     ;
-    border-bottom: solid $color3 20px;
+    // border-bottom: solid $color3 20px;
 
     .logoTitle{
         grid-area: logoTitle;
         margin: 6px;
         img{
-            filter: drop-shadow(2px 3px 4px $color1);
+            // filter: drop-shadow(2px 3px 4px $color1);
             max-width: 20vw;
             &:hover{
                 scale: 1.05;
-                filter: drop-shadow(4px 5px 5px $color1);
+                // filter: drop-shadow(4px 5px 5px $color1);
                 cursor: pointer;
             }
         }
@@ -92,23 +92,23 @@ $altoVideo:(100/1.76);
     }
 }
 .ProyectoItem1{
-    background-color: $color1;
-    color: $color2;
+    // // background-color: $color1;
+    // // color: $color2;
     h1{
-        color: $color2;
+        // // color: $color2;
     }
 }
 .ProyectoItem2{
-    background-color: rgb(24, 24, 24);
-    color: $color3;
+    // background-color: rgb(24, 24, 24);
+    // // color: $color3;
     h1{
-        color: $color3;
+        // // color: $color3;
     }
 }
 .ProyectoItem3{
-    background-color: $color1;
-    color: $color4;
+    // // background-color: $color1;
+    // // color: $color4;
     h1{
-        color: $color4;
+        // // color: $color4;
     }
 }
