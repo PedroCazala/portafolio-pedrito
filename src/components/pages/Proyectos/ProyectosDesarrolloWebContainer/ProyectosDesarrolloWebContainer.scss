@@ -1,15 +1,21 @@
-@import '../../../../variables.scss';
-.ProyectoContainer{
+@import "../../../../variables.scss";
+.ProyectoContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 15px;
-    a{
+    a {
         text-decoration: none;
     }
-    .card{
-        &:hover{
+    .card {
+        &:hover {
             transform: scale(1.05);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
         }
     }
 }

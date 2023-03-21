@@ -61,7 +61,33 @@ function SobreMi() {
                         ¡Gracias por visitar mi sitio web, espero poder trabajar
                         contigo en el futuro!
                     </p>
-
+                    <hr/>
+                    <h2>Proyectos personales</h2>
+                    <h3>pedrito.fotografia</h3>
+                    <p>Se trata de una cuanta de instagram en donde comparto trabajos relacionados a video y fotografía</p>
+                    <div className="btns">
+                            <button type="button" className="btn btn-primary">
+                                <a
+                                    href="https://www.instagram.com/pedrito.fotografia/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="nav-link"
+                                >
+                                    <i className="bi bi-instagram"></i> 
+                                    pedrito.fotografia
+                                </a>
+                            </button>
+                            <button type="button" className="btn btn-info">
+                                <a
+                                    href="https://web.facebook.com/PedroCazalaFotografia"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="nav-link"
+                                >
+                                    <i className="bi bi-facebook"></i> Facebook
+                                </a>
+                            </button>
+                        </div>
             </div>
         </div>
     );

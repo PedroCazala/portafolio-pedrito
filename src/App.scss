@@ -21,4 +21,15 @@
             transform: scale(1.15);
         }
     }
+    .btns{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5px;
+        justify-content: center;
+        button{
+            margin: auto;
+        }
+    }
 }

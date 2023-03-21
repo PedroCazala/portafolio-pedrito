@@ -17,6 +17,7 @@ function ProyectoItem() {
     }, [id]);
     return (
         <div className="ProyectoItem">
+            <p color="red"backgroundColor='gray'>En proceso</p>
             {proyect && (
                 <>
                     <div className="logoTitle">
@@ -35,7 +36,7 @@ function ProyectoItem() {
                         </div>
                         {/* <div>{proyect.}</div> */}
                     </div>
-                    <div>{proyect.description.body}</div>
+                    <div>{proyect.description}</div>
                     <hr/>
                     <div className="btns">
                             <button type="button" className="btn btn-primary">
@@ -68,7 +69,7 @@ function ProyectoItem() {
                             src="https://www.thisiscolossal.com/wp-content/uploads/2022/07/vogelsang-1.jpg"
                             alt="Third slide"
                         /> */}
-                        <ImgCarrousel/>
+                        {/* <ImgCarrousel/> */}
                     </div>
                 </>
             )}

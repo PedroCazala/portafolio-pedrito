@@ -6,13 +6,6 @@ export interface IProyectoWeb{
     images:string[],
     link:string,
     github?:string,
-    description:{
-        title:string,
-        body:string
-    },
-    technologies:{
-        name:string,
-        imgLogo:string,
-        description:string
-    }[],
+    description:string,
+    technologies:string[],
 }

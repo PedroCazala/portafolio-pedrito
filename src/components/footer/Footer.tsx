@@ -46,9 +46,14 @@ function Footer() {
             </nav>
             <div>
                 <h2>contacto</h2>
-                email
-                <br />
-                <Button1 text={"enviar"} link="/contacto"></Button1>
+                <p>cazalapedro@gmail.com</p>
+                <div className="btns">
+                            <button type="button" className="btn btn-outline-primary">
+                                <Link to="/contacto" >
+                                    <i className="bi bi-envelope"></i> Contacto
+                                </Link>
+                            </button>
+                        </div>
             </div>
         </footer>
     );
