@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes} from 'react-router-dom';
 // import AlgoVideo from './algo';
 
 
@@ -38,6 +38,7 @@ function App() {
               <Route path="/contacto" element={<Contacto/>}/>
               <Route path="/curriculum" element={<Curriculum/>}/>
               <Route path="/" element={<IndexContainer/>}/>
+              <Route path="*" element={<><p>La página que estas buscando no existe</p><button type="button" className="btn btn-primary"><Link to="/">Volver a la pagina principal</Link></button></>}/>
             </Routes>
           </main>
         <Footer/>

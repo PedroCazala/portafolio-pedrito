@@ -8,4 +8,5 @@ export interface IProyectoWeb{
     github?:string,
     description:string,
     technologies:string[],
+    estado:'Por iniciar' | 'En proceso' | 'Finalizado'
 }

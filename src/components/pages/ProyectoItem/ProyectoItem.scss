@@ -2,17 +2,19 @@ $anchoVideo: 100%;
 $altoVideo:(100/1.76);
 // @import '../../../../variables.scss';
 .ProyectoItem{
-    max-width: 100vw;
+    max-width: 90vw;
+    margin: auto;
     min-height: 80vh;
 
     display: grid;
     align-items: center;
     align-content: space-around;
     justify-content: center;
+    grid-template-columns: 1fr 1.6fr;
     grid-template-areas:
     "logoTitle logoTitle"
-    "video carouselPhotos"
-    "description technologies"
+    "video description"
+    "technologies photos"
     "buttons buttons"
     ;
     // border-bottom: solid $color3 20px;
@@ -51,8 +53,11 @@ $altoVideo:(100/1.76);
             }
         }
     }
-    .carouselPhotos{
-        grid-area: carouselPhotos;
+    .description{
+        grid-area: description;
+    }
+    .photos{
+        grid-area: photos;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -65,6 +70,10 @@ $altoVideo:(100/1.76);
     }
     .technologies{
         grid-area: technologies;
+        li{
+            padding: 4px;
+            text-transform: capitalize;
+        }
     }
     .buttons{
         grid-area: buttons;
@@ -76,39 +85,19 @@ $altoVideo:(100/1.76);
 }
 @media (max-width:600px){
     .ProyectoItem{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas:
-        "logoTitle logoTitle"
-        "video video"
-        "carouselPhotos technologies"
-        "carouselPhotos description"
-        "buttons buttons"
+        "logoTitle"
+        "video"
+        "description"
+        "technologies"
+        "photos"
+        "buttons"
         ;
         .logoTitle{
             img{
                 max-width: 50vw;
             }
         }
-    }
-}
-.ProyectoItem1{
-    // // background-color: $color1;
-    // // color: $color2;
-    h1{
-        // // color: $color2;
-    }
-}
-.ProyectoItem2{
-    // background-color: rgb(24, 24, 24);
-    // // color: $color3;
-    h1{
-        // // color: $color3;
-    }
-}
-.ProyectoItem3{
-    // // background-color: $color1;
-    // // color: $color4;
-    h1{
-        // // color: $color4;
     }
 }

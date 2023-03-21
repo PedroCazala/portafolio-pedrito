@@ -7,10 +7,10 @@ function Footer() {
         <footer className="bg-dark">
             <div>
                 <Link to="/">Home</Link>
-                Sobre mi
+                <Link to="/sobre-mi">Sobre mi</Link>
+                <Link to="/educacion">Educación</Link>
             </div>
             <nav>
-                <h2>Social Media</h2>
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <a
@@ -45,7 +45,7 @@ function Footer() {
                 </ul>
             </nav>
             <div>
-                <h2>contacto</h2>
+                <h6>Contacto:</h6>
                 <p>cazalapedro@gmail.com</p>
                 <div className="btns">
                             <button type="button" className="btn btn-outline-primary">

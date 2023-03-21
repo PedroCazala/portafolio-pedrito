@@ -34,13 +34,18 @@ function ProyectosContainer() {
                             />
                             <div className="card-body">
                                 <p className="card-text">
+                                    {proyecto.estado === "En proceso" && 
+                                    // <div className="w-100 p-3 badge bg-danger" >Width 100%</div>
+                                    <span className="badge bg-danger w-100 p-2">En proceso</span>
+                                    }
                                     <div className="skills">
-
-                                        {proyecto.technologies.map((technology) => (
-                                            <span className="badge bg-dark">
-                                                {technology}
-                                            </span>
-                                        ))}
+                                        {proyecto.technologies.map(
+                                            (technology) => (
+                                                <span className="badge bg-dark">
+                                                    {technology}
+                                                </span>
+                                            )
+                                        )}
                                     </div>
                                 </p>
                             </div>
