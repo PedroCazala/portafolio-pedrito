@@ -1,7 +1,14 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Header.scss'
 
 function Header() {
+    const [collapsed, setCollapsed] = useState('false')
+    const [ariaExpanded, setAriaExpanded] = useState('false')
+    const closeMenu = ()=>{
+        setCollapsed('collapsed')
+        setAriaExpanded('true')
+    }
     return (
         <header className="Header">
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary"> 
@@ -10,12 +17,12 @@ function Header() {
                         Pedro Cazalá
                     </NavLink>
                     <button
-                        className="navbar-toggler"
+                        className="navbar-toggler"//{`navbar-toggler ${collapsed}`}
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarColor01"
                         aria-controls="navbarColor01"
-                        aria-expanded="false"
+                        aria-expanded="false"//{ariaExpanded}
                         aria-label="Toggle navigation"
                     >
                         <span className="navbar-toggler-icon"></span>
