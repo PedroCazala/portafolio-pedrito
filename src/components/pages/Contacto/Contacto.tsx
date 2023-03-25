@@ -5,7 +5,7 @@ import axios from "axios";
 
 export default function Contacto() {
     const  enviarMail = async (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
+        // e.preventDefault();
         const form = e.currentTarget;
 
         // crea un objeto con los valores del formulario
