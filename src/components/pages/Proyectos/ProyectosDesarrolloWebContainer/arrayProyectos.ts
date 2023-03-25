@@ -8,13 +8,18 @@ export const proyectos: IProyectoWeb[] = [
             "https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png",
         video: "https://www.youtube.com/embed/fCtrKym8Y0U",
         images: [
-            "https://fondosmil.com/fondo/29366.jpg",
-            "https://images4.alphacoders.com/936/thumb-1920-936378.jpg",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0000.png",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0001.png",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0002.png",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0003.png",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0004.png",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0005.png",
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0006.png"
         ],
         link: "https://pedrocazala.github.io/Rayuela/",
         github: "https://github.com/PedroCazala/Rayuela",
         description:
-            'Cree dos versiones del mismo proyecto esta es la que se creó con javaScript, como parte de los dos primeros cursos de la carrera de Desarrollo Web Full Stack. En el primero "Desarrollo Web", se maquetó y diseñó el sitio utilizando "HTML" y "CSS" con utilización del preprocesador de css "SASS" y luego en el segundo curso, "JavaScript", se utilizó dicho lenguaje de programación para dotar al sitio de funcionalidad, particularmente en la sección "catálogo", como un buscador que permite filtrar por nombre, la opción de ordenar por precio o alfabéticamente, y en el "carrito" con almacenamiento en storage y la posibilidad de aumentar/disminuir la cantidad de un producto, borrarlo o vaciar todo el carrito. Como proyecto personal, se está trabajando en una versión mas actualizada con "React Js"',
+        'Cree dos versiones del mismo proyecto esta es la que se creó con javaScript, como parte de los dos primeros cursos de la carrera de Desarrollo Web Full Stack. En el primero "Desarrollo Web", se maquetó y diseñó el sitio utilizando "HTML" y "CSS" con utilización del preprocesador de css "SASS" y luego en el segundo curso, "JavaScript", se utilizó dicho lenguaje de programación para dotar al sitio de funcionalidad, particularmente en la sección "catálogo", como un buscador que permite filtrar por nombre, la opción de ordenar por precio o alfabéticamente, y en el "carrito" con almacenamiento en storage y la posibilidad de aumentar/disminuir la cantidad de un producto, borrarlo o vaciar todo el carrito. Como proyecto personal, se está trabajando en una versión mas actualizada con "React Js"',
         technologies: [
             "html",
             "css",
@@ -34,8 +39,16 @@ export const proyectos: IProyectoWeb[] = [
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
         video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
-            "https://fondosmil.com/fondo/29366.jpg",
-            "https://images4.alphacoders.com/936/thumb-1920-936378.jpg",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0000.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0001.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0002.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0003.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0004.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0005.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0006.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0007.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0008.png",
+            "/images/proyectos/NoTanMacho/NoTanMacho_0009.png",
         ],
         link: "https://notanmacho.netlify.app/",
         github: "https://github.com/PedroCazala/notanmacho",
@@ -51,14 +64,16 @@ export const proyectos: IProyectoWeb[] = [
     },
     {
         id: 3,
-        title: "Proyecto Backend",
+        title: "Proyecto Final Backend CoderHouse",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
         video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
-            "https://fondosmil.com/fondo/29366.jpg",
-            "https://images4.alphacoders.com/936/thumb-1920-936378.jpg",
+            "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0000.png",
+            "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0001.png",
+            "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0002.png",
+            "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0003.png"
         ],
-        link: "/Subir-nuevamenteeeeeeeee",
+        link: "https://proyectofinal-backendcoderhouse-production.up.railway.app/",
         github: "https://github.com/PedroCazala/proyectoFinal-backend_CoderHouse",
         description: "En este proyecto...",
         technologies: [

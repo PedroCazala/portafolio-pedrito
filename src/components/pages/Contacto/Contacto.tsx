@@ -1,17 +1,40 @@
 import "./Contacto.scss";
 import Form from "react-bootstrap/Form";
 import { FloatingLabel } from "react-bootstrap";
+import axios from "axios";
 
 export default function Contacto() {
+    const  enviarMail = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const form = e.currentTarget;
+
+        // crea un objeto con los valores del formulario
+        const data = {
+            subject: form.subject.value,
+            html: form.html.value,
+        };
+        try {
+            
+            await axios.post(
+                "https://proyectofinal-backendcoderhouse-production.up.railway.app/send-email-to-admin" ,data
+            );
+            console.log('enviado');
+        } catch (error) {
+            console.log('no se pudo enviar el mail');
+            
+        }
+        
+    };
     return (
         <div className="Contacto">
             <h1>Contacto</h1>
 
-            <Form>
+            <Form onSubmit={enviarMail}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control
                         type="email"
                         placeholder="Ingresa tu e-mail"
+                        name="subject"
                     />
                 </Form.Group>
 
@@ -20,6 +43,7 @@ export default function Contacto() {
                         as="textarea"
                         placeholder="Leave a comment here"
                         style={{ height: "100px" }}
+                        name="html"
                     />
                 </FloatingLabel>
 

@@ -33,7 +33,7 @@ function ProyectosContainer() {
                                 alt="Imagen de proyecto"
                             />
                             <div className="card-body">
-                                <p className="card-text">
+                                <div className="card-text">
                                     {proyecto.estado === "En proceso" && 
                                     // <div className="w-100 p-3 badge bg-danger" >Width 100%</div>
                                     <span className="badge bg-danger w-100 p-2">En proceso</span>
@@ -41,13 +41,13 @@ function ProyectosContainer() {
                                     <div className="skills">
                                         {proyecto.technologies.map(
                                             (technology) => (
-                                                <span className="badge bg-dark">
+                                                <span className="badge bg-dark" key={technology}>
                                                     {technology}
                                                 </span>
                                             )
                                         )}
                                     </div>
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </Link>
