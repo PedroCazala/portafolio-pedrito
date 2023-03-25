@@ -18,6 +18,7 @@ export default function Contacto() {
             await axios.post(
                 "https://proyectofinal-backendcoderhouse-production.up.railway.app/send-email-to-admin" ,data
             );
+            alert(`El mensaje de ${data.subject} se ha enviado con éxito `)
             console.log('enviado');
         } catch (error) {
             console.log('no se pudo enviar el mail');
