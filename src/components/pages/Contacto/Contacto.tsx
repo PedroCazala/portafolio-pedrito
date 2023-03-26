@@ -2,11 +2,9 @@ import "./Contacto.scss";
 import Form from "react-bootstrap/Form";
 import { FloatingLabel } from "react-bootstrap";
 import axios from "axios";
-import { useState } from "react";
 
 export default function Contacto() {
-    // const [subject, setSubject] = useState('')
-    // const [html, setHtml] = useState()
+
     const  enviarMail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const form = e.currentTarget;
@@ -23,17 +21,18 @@ export default function Contacto() {
             );
             alert(`El mensaje de ${data.subject} se ha enviado con éxito `)
             console.log('enviado');
+            const form = document.getElementById('formSendEmail') as HTMLFormElement | null;
+            form && form.reset()
         } catch (error) {
             console.log('no se pudo enviar el mail');
-            
+            alert(`El mensaje no se pudo enviar`)
         }
-        
     };
     return (
         <div className="Contacto">
             <h1>Contacto</h1>
 
-            <Form onSubmit={enviarMail}>
+            <Form onSubmit={enviarMail} id='formSendEmail'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control
                         type="email"
