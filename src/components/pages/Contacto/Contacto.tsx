@@ -2,8 +2,11 @@ import "./Contacto.scss";
 import Form from "react-bootstrap/Form";
 import { FloatingLabel } from "react-bootstrap";
 import axios from "axios";
+import { useState } from "react";
 
 export default function Contacto() {
+    // const [subjec, setSubjec] = useState()
+    // const [html, setHtml] = useState()
     const  enviarMail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const form = e.currentTarget;
