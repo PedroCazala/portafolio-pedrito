@@ -5,7 +5,7 @@ import axios from "axios";
 import { useState } from "react";
 
 export default function Contacto() {
-    // const [subjec, setSubjec] = useState()
+    // const [subject, setSubject] = useState('')
     // const [html, setHtml] = useState()
     const  enviarMail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -39,6 +39,8 @@ export default function Contacto() {
                         type="email"
                         placeholder="Ingresa tu e-mail"
                         name="subject"
+                        // value={subject}
+                        // onChange={setSubject(e.target.value)}
                     />
                 </Form.Group>
 
