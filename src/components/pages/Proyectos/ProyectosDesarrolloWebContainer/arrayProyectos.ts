@@ -52,7 +52,7 @@ export const proyectos: IProyectoWeb[] = [
         ],
         link: "https://notanmacho.netlify.app/",
         github: "https://github.com/PedroCazala/notanmacho",
-        description: "En este proyecto...",
+        description: "No tan macho es el proyecto final de un curso sobre React.Js, y su objetivo principal fué demostrar las habilidades y conocimientos adquiridos durante el curso. Aunque originalmente no se creó para funcionar como un negocio real, quizas en un futuro me plantee continuar dándole forma. Este proyecto es una excelente muestra de lo que se aprendió para desarrollar aplicaciones web interactivas y dinámicas con una alta eficiencia y calidad utilizando React y Firebase. ",
         technologies: [
             "react",
             "firebase",
