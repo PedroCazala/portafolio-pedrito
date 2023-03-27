@@ -37,6 +37,11 @@ function App() {
               <Route path="/sobre-mi" element={<SobreMi/>}/>
               <Route path="/contacto" element={<Contacto/>}/>
               <Route path="/curriculum" element={<Curriculum/>}/>
+              <Route path="/sitio-no-disponible" element={<>
+                  <p>Proyecto no disponible. </p>
+                  <p> Puede que todavía esté en proceso o que el desarrollador aún no desee compartirlo.</p>
+              </>
+              }/>
               <Route path="/" element={<IndexContainer/>}/>
               <Route path="*" element={<><p>La página que estas buscando no existe</p><button type="button" className="btn btn-primary"><Link to="/">Volver a la pagina principal</Link></button></>}/>
             </Routes>

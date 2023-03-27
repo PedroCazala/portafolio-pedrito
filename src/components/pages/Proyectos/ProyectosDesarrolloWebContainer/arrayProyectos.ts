@@ -115,7 +115,7 @@ export const proyectos: IProyectoWeb[] = [
         link: "https://control-de-finanzas.netlify.app/",
         github: "https://github.com/PedroCazala/finanzas",
         description:
-            "Esta aplicación cuenta con varias paginas que les servirán al usuario con su economía. Es una herramienta que permitirá administrar sus finanzas y hacer planes a largo plazo. Además podría ser útil tanto para individuos como para empresas que quieren tener una visión clara y completa de sus finanzas y hacer planes para el futuro. Todavía está en proceso, la idea es agregarle mas secciones, en el caso de dividir gastos todavía no funciona.",
+        "Esta aplicación cuenta con varias paginas que les servirán al usuario con su economía. Es una herramienta que permitirá administrar sus finanzas y hacer planes a largo plazo. Además podría ser útil tanto para individuos como para empresas que quieren tener una visión clara y completa de sus finanzas y hacer planes para el futuro. Todavía está en proceso, la idea es agregarle mas secciones, en el caso de dividir gastos todavía no funciona.",
         technologies: [
             "react",
             "typescript",
@@ -160,12 +160,12 @@ export const proyectos: IProyectoWeb[] = [
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
         video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
-            "https://fondosmil.com/fondo/29366.jpg",
-            "https://images4.alphacoders.com/936/thumb-1920-936378.jpg",
+            "/images/proyectos/RayuelaClient/RayuelaClient_0000.png",
+            "/images/proyectos/RayuelaClient/RayuelaClient_0001.png"
         ],
-        link: "https://pedrocazala.netlify.app",
-        github: "https://github.com/PedroCazala/portafolio-pedrito",
-        description: "En este proyecto...",
+        link: "/sitio-no-disponible",
+        github:  "/sitio-no-disponible", //"https://github.com/PedroCazala/rayuela-client",
+        description: "En este proyecto, se está trabajando en el desarrollo de una aplicación del lado del cliente para mejorar nuestro negocio familiar. El objetivo es retomar el primer proyecto realizado con JavaScript, pero esta vez utilizando React JS para lograr una interfaz de usuario más elegante, rápida e intuitiva.",
         technologies: [
             "react",
             "typescript",
@@ -188,9 +188,9 @@ export const proyectos: IProyectoWeb[] = [
             "https://fondosmil.com/fondo/29366.jpg",
             "https://images4.alphacoders.com/936/thumb-1920-936378.jpg",
         ],
-        link: "https://pedrocazala.netlify.app",
-        github: "https://github.com/PedroCazala/portafolio-pedrito",
-        description: "En este proyecto...",
+        link:  "/sitio-no-disponible",
+        github:  "/sitio-no-disponible",
+        description: "En este proyecto, se tiene como objetivo desarrollar una API REST para nuestro negocio, que permita manejar los productos, carritos, órdenes y usuarios. Además, se implementará la lógica de inicio de sesión para los usuarios.Este backend será realizado con Node Js.",
         technologies: [
             "react",
             "typescript",

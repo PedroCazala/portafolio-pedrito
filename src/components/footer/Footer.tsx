@@ -45,8 +45,6 @@ function Footer() {
                 </ul>
             </nav>
             <div>
-                <h6>Contacto:</h6>
-                <p>cazalapedro@gmail.com</p>
                 <div className="btns">
                             <button type="button" className="btn btn-outline-primary">
                                 <Link to="/contacto" >
