@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { IProyectoWeb } from "../../../../interfaces/proyectoWeb.iterface";
+import { IProyectoWeb } from "../../../../interfaces/proyectoWeb.interface";
 // import ProyectoItem from '../ProyectoItem/ProyectoItem'
 import { proyectos } from "./arrayProyectos";
 import "./ProyectosDesarrolloWebContainer.scss";
@@ -34,14 +34,26 @@ function ProyectosContainer() {
                             />
                             <div className="card-body">
                                 <div className="card-text">
-                                    {proyecto.estado === "En proceso" && 
-                                    // <div className="w-100 p-3 badge bg-danger" >Width 100%</div>
-                                    <span className="badge bg-danger w-100 p-2">En proceso</span>
+                                    {
+                                        proyecto.estado === "En proceso" ? (
+                                            <span className="badge bg-danger w-100 p-2 state">
+                                                En proceso
+                                            </span>
+                                        ) : proyecto.estado === "Por iniciar" ? (
+                                            <span className="badge bg-success w-100 p-2 state">
+                                                Por iniciar
+                                            </span>
+                                        ) : (
+                                            false
+                                        )
                                     }
                                     <div className="skills">
                                         {proyecto.technologies.map(
                                             (technology) => (
-                                                <span className="badge bg-dark" key={technology}>
+                                                <span
+                                                    className="badge bg-dark"
+                                                    key={technology}
+                                                >
                                                     {technology}
                                                 </span>
                                             )

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { proyectos } from "../Proyectos/ProyectosDesarrolloWebContainer/arrayProyectos";
 import "./ProyectoItem.scss";
 import ImgCarrousel from "./imgCarrousel/ImgCarrousel";
-import { IProyectoWeb } from "../../../interfaces/proyectoWeb.iterface";
+import { IProyectoWeb } from "../../../interfaces/proyectoWeb.interface";
 
 function ProyectoItem() {
     // const clase = `ProyectoItem ${proyecto.clases}`

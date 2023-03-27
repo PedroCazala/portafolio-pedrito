@@ -1,4 +1,4 @@
-import { IProyectoWeb } from "../../../../interfaces/proyectoWeb.iterface";
+import { IProyectoWeb } from "../../../../interfaces/proyectoWeb.interface";
 
 export const proyectos: IProyectoWeb[] = [
     {
@@ -19,7 +19,7 @@ export const proyectos: IProyectoWeb[] = [
         link: "https://pedrocazala.github.io/Rayuela/",
         github: "https://github.com/PedroCazala/Rayuela",
         description:
-        'Cree dos versiones del mismo proyecto esta es la que se creó con javaScript, como parte de los dos primeros cursos de la carrera de Desarrollo Web Full Stack. En el primero "Desarrollo Web", se maquetó y diseñó el sitio utilizando "HTML" y "CSS" con utilización del preprocesador de css "SASS" y luego en el segundo curso, "JavaScript", se utilizó dicho lenguaje de programación para dotar al sitio de funcionalidad, particularmente en la sección "catálogo", como un buscador que permite filtrar por nombre, la opción de ordenar por precio o alfabéticamente, y en el "carrito" con almacenamiento en storage y la posibilidad de aumentar/disminuir la cantidad de un producto, borrarlo o vaciar todo el carrito. Como proyecto personal, se está trabajando en una versión mas actualizada con "React Js"',
+        'Cree dos versiones del mismo proyecto esta es la que se creó con javaScript, como parte de los dos primeros cursos de la carrera de Desarrollo Web Full Stack. En el primero "Desarrollo Web", se maquetó y diseñó el sitio utilizando "HTML" y "CSS" con utilización del pre-procesador de css "SASS" y luego en el segundo curso, "JavaScript", se utilizó dicho lenguaje de programación para dotar al sitio de funcionalidad, particularmente en la sección "catálogo", como un buscador que permite filtrar por nombre, la opción de ordenar por precio o alfabéticamente, y en el "carrito" con almacenamiento en storage y la posibilidad de aumentar/disminuir la cantidad de un producto, borrarlo o vaciar todo el carrito. Como proyecto personal, se está trabajando en una versión mas actualizada con "React Js"',
         technologies: [
             "html",
             "css",
@@ -52,7 +52,7 @@ export const proyectos: IProyectoWeb[] = [
         ],
         link: "https://notanmacho.netlify.app/",
         github: "https://github.com/PedroCazala/notanmacho",
-        description: "No tan macho es el proyecto final de un curso sobre React.Js, y su objetivo principal fué demostrar las habilidades y conocimientos adquiridos durante el curso. Aunque originalmente no se creó para funcionar como un negocio real, quizas en un futuro me plantee continuar dándole forma. Este proyecto es una excelente muestra de lo que se aprendió para desarrollar aplicaciones web interactivas y dinámicas con una alta eficiencia y calidad utilizando React y Firebase. ",
+        description: "No tan macho es el proyecto final de un curso sobre React.Js, y su objetivo principal fué demostrar las habilidades y conocimientos adquiridos durante el curso. Aunque originalmente no se creó para funcionar como un negocio real, quizás en un futuro me plantee continuar dándole forma. Este proyecto es una excelente muestra de lo que se aprendió para desarrollar aplicaciones web interactivas y dinámicas con una alta eficiencia y calidad utilizando React y Firebase. ",
         technologies: [
             "react",
             "firebase",
@@ -75,7 +75,7 @@ export const proyectos: IProyectoWeb[] = [
         ],
         link: "https://proyectofinal-backendcoderhouse-production.up.railway.app/",
         github: "https://github.com/PedroCazala/proyectoFinal-backend_CoderHouse",
-        description: "En este proyecto...",
+        description: "El proyecto es una API de backend desarrollada con NodeJS y ExpressJS, diseñada para administrar una tienda e-commerce. La API está basada en una arquitectura RESTful y utiliza el motor de plantillas EJS para las vistas.    La persistencia de datos se realiza mediante el uso de MongoAtlas, aunque también es posible elegir otros métodos de almacenamiento, como el sistema de archivos, Firebase o la memoria, (utilizando los argumentos filesystem,firebase,memory o mongo, luego de: --storage en la línea de comandos.    La autenticación de las peticiones se realiza utilizando Passport, lo que permite una mayor seguridad en el manejo de datos de los usuarios.",
         technologies: [
             "nodeJs",
             "express",
@@ -140,7 +140,7 @@ export const proyectos: IProyectoWeb[] = [
         ],
         link: "https://pedrocazala.netlify.app",
         github: "https://github.com/PedroCazala/portafolio-pedrito",
-        description: "En este proyecto...",
+        description: "Este proyecto es un portfolio personal, para demostrar las habilidades adquiridas en el área de la programación. Construido como una SPA (Single Page Application), en React. Cuenta con diferentes secciones, entre las que se destacan proyectos (Aquí se pueden observar todos en forma de cards, pero al oprimir en ellos se lleva a una vista del proyecto particular, donde se explayan en información, detalles y enlaces a los sitios y/o repositorios), habilidades, educación, contacto (con la posibilidad de llenar un formulario, el cual requiere de un email y un mensaje, que a través de nodemailer llegarán a mi casilla de correo electrónico ambos datos. Además de enlaces a redes sociales. ), curriculum(Da la posibilidad de visualizar y/o descargar el cv).",
         technologies: [
             "react",
             "typescript",
