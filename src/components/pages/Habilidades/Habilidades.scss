@@ -32,6 +32,7 @@
             grid-template-areas: 
             'logo title'
             'logo text';
+            gap: 10px;
             h4{
                 text-transform: capitalize;
                 grid-area: title;

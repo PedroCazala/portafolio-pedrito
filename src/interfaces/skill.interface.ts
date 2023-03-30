@@ -4,4 +4,5 @@ export interface ISkill
     name:string,
     logo:string,
     description:string,
+    category?:string[]
 }
