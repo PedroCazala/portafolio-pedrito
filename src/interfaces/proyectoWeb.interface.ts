@@ -2,7 +2,7 @@ export interface IProyectoWeb{
     id:number,
     title:string,
     imgLogo?:string,
-    video:string,
+    video?:string,
     images:string[],
     link:string,
     github?:string,

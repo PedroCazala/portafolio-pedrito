@@ -265,8 +265,7 @@ function DesarrolloWebFullStack() {
                         <div className="btns">
                             <button type="button" className="btn btn-primary">
                                 <a
-                                    //SLUCIONARRRRRRRRRRR, FALTA SUBIR A OTRA plataforma xq heroku no es mas gratis
-                                    href="/"
+                                    href="https://proyectofinal-backendcoderhouse-production.up.railway.app/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="nav-link"

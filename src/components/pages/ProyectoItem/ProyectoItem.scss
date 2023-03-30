@@ -1,6 +1,7 @@
 $anchoVideo: 100%;
 $altoVideo:(100/1.76);
 // @import '../../../../variables.scss';
+
 .ProyectoItem{
     max-width: 90vw;
     margin: auto;
@@ -82,6 +83,15 @@ $altoVideo:(100/1.76);
     h1{
         margin: auto;
     }
+
+}
+.no-video-container{
+    grid-template-areas:
+    "logoTitle logoTitle"
+    "description description"
+    "technologies photos"
+    "buttons buttons"
+    ;
 
 }
 @media (max-width:600px){

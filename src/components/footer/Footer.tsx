@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import Button1 from "../buttons/Button1/Button1";
 import "./Footer.scss";
 function Footer() {
     return (

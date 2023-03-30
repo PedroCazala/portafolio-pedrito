@@ -6,7 +6,7 @@ export const proyectos: IProyectoWeb[] = [
         title: "Rayuela",
         imgLogo:
             "https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png",
-        video: "https://www.youtube.com/embed/fCtrKym8Y0U",
+        // video:'',// "https://www.youtube.com/embed/fCtrKym8Y0U",
         images: [
             "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0000.png",
             "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0001.png",
@@ -37,7 +37,7 @@ export const proyectos: IProyectoWeb[] = [
         id: 2,
         title: "No tan macho",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video: "https://www.youtube.com/embed/juxZrOVtg-c",
+        // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
             "/images/proyectos/NoTanMacho/NoTanMacho_0000.png",
             "/images/proyectos/NoTanMacho/NoTanMacho_0001.png",
@@ -66,7 +66,7 @@ export const proyectos: IProyectoWeb[] = [
         id: 3,
         title: "Proyecto Final Backend CoderHouse",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video: "https://www.youtube.com/embed/juxZrOVtg-c",
+        // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
             "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0000.png",
             "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0001.png",
@@ -100,7 +100,7 @@ export const proyectos: IProyectoWeb[] = [
         id: 4,
         title: "App Financiera",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video: "https://www.youtube.com/embed/juxZrOVtg-c",
+        // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
             "/images/proyectos/AppFinanciera/appFinanciera_0001.png",
             "/images/proyectos/AppFinanciera/appFinanciera_0002.png",
@@ -133,7 +133,7 @@ export const proyectos: IProyectoWeb[] = [
         id: 5,
         title: "Portafolio Personal",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video: "https://www.youtube.com/embed/juxZrOVtg-c",
+        // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
             "/images/proyectos/PortafolioPersonal/PortafolioPersonal_0000.png",
         ],
@@ -157,7 +157,7 @@ export const proyectos: IProyectoWeb[] = [
         id: 6,
         title: "Rayuela con React",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video: "https://www.youtube.com/embed/juxZrOVtg-c",
+        // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
             "/images/proyectos/RayuelaClient/RayuelaClient_0000.png",
             "/images/proyectos/RayuelaClient/RayuelaClient_0001.png"
@@ -182,7 +182,7 @@ export const proyectos: IProyectoWeb[] = [
         id: 7,
         title: "Backend de Rayuela",
         // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
-        video: "https://www.youtube.com/embed/juxZrOVtg-c",
+        // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
             "/images/proyectos/RayuelaApi/RayuelaApi_0000.png",
         ],

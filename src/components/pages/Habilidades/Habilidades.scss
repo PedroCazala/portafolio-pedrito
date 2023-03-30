@@ -1,0 +1,58 @@
+.habilidades{
+    h2{
+        margin-top: 23px;
+    }
+    .MostrarHabilidades{
+        width: 80vw;
+        margin: auto;
+        .containerCarrusel{
+            .containerImg{
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+
+                &:hover{
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+                height: 10vw;
+                img{
+                    max-height: 100%;
+                    margin: auto;
+                    max-width: 100%;
+                    object-fit: cover ;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .description{
+            margin-top: 30px;
+            display: grid;
+            grid-template-areas: 
+            'logo title'
+            'logo text';
+            h4{
+                text-transform: capitalize;
+                grid-area: title;
+            }
+            .text{
+                grid-area: text;
+            }
+            .logo{
+                grid-area: logo;
+                width: 10vw;
+            }
+        }
+        .false{
+            display: none;
+        }
+        @media screen and (max-width: 450px) {
+            .description{
+                grid-template-areas: 
+                'logo title'
+                'text text';
+            }
+        }
+    }
+}

@@ -17,7 +17,7 @@ function ProyectoItem() {
             );
     }, [id]);
     return (
-        <div className="ProyectoItem">
+        <div className={`ProyectoItem ${!proyect?.video && "no-video-container"}`}>
             {proyect && (
                 <>
                     <div className="logoTitle">
@@ -31,18 +31,22 @@ function ProyectoItem() {
                         )}
                         {/* <div>{proyect.}</div> */}
                     </div>
-                    <div className="video">
-                        <div className="containerVideo">
-                            <iframe
-                                width="560"
-                                height="315"
-                                src={proyect.video}
-                                title="YouTube video player"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                // allowfullscreen="true"
-                            ></iframe>
+                    {proyect.video ?
+                        <div className="video">
+                            <div className="containerVideo">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src={proyect.video}
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    // allowfullscreen="true"
+                                ></iframe>
+                            </div>
                         </div>
-                    </div>
+                        :
+                        <div className="no-video"></div>
+                    }
                     <div className="description">{proyect.description}</div>
                     <div className="btns buttons">
                         <button type="button" className="btn btn-primary">
