@@ -14,6 +14,7 @@ function Habilidades() {
     return (
         <div className="habilidades">
             <h1>Habilidades</h1>
+            <p>Al oprimir sobre cada habilidad se visualiza una descripción de la misma.</p>
             <h2>Frontend</h2>
             <MostrarHabilidades skills={filterCategory('frontend')} />
             <h2>Backend</h2>

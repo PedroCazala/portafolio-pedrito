@@ -3,11 +3,9 @@ import { NavLink } from "react-router-dom";
 import './Header.scss'
 
 function Header() {
-    const [collapsed, setCollapsed] = useState('false')
-    const [ariaExpanded, setAriaExpanded] = useState('false')
+    const [collapsed, setCollapsed] = useState<false|'show'>(false)
     const closeMenu = ()=>{
-        setCollapsed('collapsed')
-        setAriaExpanded('true')
+        setCollapsed(false)
     }
     return (
         <header className="Header">
@@ -24,16 +22,17 @@ function Header() {
                         aria-controls="navbarColor01"
                         aria-expanded="false"//{ariaExpanded}
                         aria-label="Toggle navigation"
+                        onClick={()=>{setCollapsed(collapsed === false ? 'show':false)}}
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div
-                        className="collapse navbar-collapse"
+                        className={`collapse navbar-collapse ${collapsed}`}
                         id="navbarColor01"
                     >
                         <ul className="navbar-nav me-auto">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/proyectos">
+                                <NavLink className="nav-link" to="/proyectos" onClick={()=>closeMenu()}>
                                     Proyectos
                                     <span className="visually-hidden">
                                         (current)
@@ -41,27 +40,27 @@ function Header() {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/habilidades">
+                                <NavLink className="nav-link" to="/habilidades"onClick={()=>closeMenu()}>
                                     Habilidades
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/educacion">
+                                <NavLink className="nav-link" to="/educacion"onClick={()=>closeMenu()}>
                                     Educación
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/sobre-mi">
+                                <NavLink className="nav-link" to="/sobre-mi"onClick={()=>closeMenu()}>
                                     Sobre mi
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/contacto">
+                                <NavLink className="nav-link" to="/contacto"onClick={()=>closeMenu()}>
                                     Contacto
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/curriculum">
+                                <NavLink className="nav-link" to="/curriculum"onClick={()=>closeMenu()}>
                                     Curriculum
                                 </NavLink>
                             </li>

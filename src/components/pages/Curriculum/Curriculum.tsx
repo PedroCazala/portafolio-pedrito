@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Curriculum.scss";
-import ViewCV from "./ViewCV";
+// import ViewCV from "./ViewCV";
 
 function Curriculum() {
     return (
