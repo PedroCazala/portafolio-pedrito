@@ -163,7 +163,7 @@ export const proyectos: IProyectoWeb[] = [
             "netlify",
             "responsive",
         ],
-        estado: "En proceso",
+        estado: "Finalizado",
     },
     {
         id: 6,
