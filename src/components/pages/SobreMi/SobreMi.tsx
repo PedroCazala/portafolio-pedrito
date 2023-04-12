@@ -8,7 +8,7 @@ function SobreMi() {
                 <img src="/PedroSeñalando.png" alt="" />
                 <p>
                     ¡Hola! Mi nombre es <b>Pedro</b>, soy desarrollador web.
-                    Nací de San Andrés de Giles, Buenos Aires, Argentina, el 13
+                    Nací en San Andrés de Giles, Buenos Aires, Argentina, el 13
                     de septiembre de 1998 como el primer hijo de una familia que
                     me educó en valores, por los que siempre estaré agradecido.
                     Desde pequeño siempre he estado interesado en aprender cosas
