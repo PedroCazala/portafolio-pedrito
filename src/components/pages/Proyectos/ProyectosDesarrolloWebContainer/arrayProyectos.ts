@@ -14,12 +14,12 @@ export const proyectos: IProyectoWeb[] = [
             "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0003.png",
             "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0004.png",
             "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0005.png",
-            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0006.png"
+            "/images/proyectos/RayuelaJavascript/RayuelaJavascript_0006.png",
         ],
         link: "https://pedrocazala.github.io/Rayuela/",
         github: "https://github.com/PedroCazala/Rayuela",
         description:
-        'Cree dos versiones del mismo proyecto esta es la que se creó con javaScript, como parte de los dos primeros cursos de la carrera de Desarrollo Web Full Stack. En el primero "Desarrollo Web", se maquetó y diseñó el sitio utilizando "HTML" y "CSS" con utilización del pre-procesador de css "SASS" y luego en el segundo curso, "JavaScript", se utilizó dicho lenguaje de programación para dotar al sitio de funcionalidad, particularmente en la sección "catálogo", como un buscador que permite filtrar por nombre, la opción de ordenar por precio o alfabéticamente, y en el "carrito" con almacenamiento en storage y la posibilidad de aumentar/disminuir la cantidad de un producto, borrarlo o vaciar todo el carrito. Como proyecto personal, se está trabajando en una versión mas actualizada con "React Js"',
+            'Cree dos versiones del mismo proyecto esta es la que se creó con javaScript, como parte de los dos primeros cursos de la carrera de Desarrollo Web Full Stack. En el primero "Desarrollo Web", se maquetó y diseñó el sitio utilizando "HTML" y "CSS" con utilización del pre-procesador de css "SASS" y luego en el segundo curso, "JavaScript", se utilizó dicho lenguaje de programación para dotar al sitio de funcionalidad, particularmente en la sección "catálogo", como un buscador que permite filtrar por nombre, la opción de ordenar por precio o alfabéticamente, y en el "carrito" con almacenamiento en storage y la posibilidad de aumentar/disminuir la cantidad de un producto, borrarlo o vaciar todo el carrito. Como proyecto personal, se está trabajando en una versión mas actualizada con "React Js"',
         technologies: [
             "html",
             "css",
@@ -52,7 +52,8 @@ export const proyectos: IProyectoWeb[] = [
         ],
         link: "https://notanmacho.netlify.app/",
         github: "https://github.com/PedroCazala/notanmacho",
-        description: "No tan macho es el proyecto final de un curso sobre React.Js, y su objetivo principal fué demostrar las habilidades y conocimientos adquiridos durante el curso. Aunque originalmente no se creó para funcionar como un negocio real, quizás en un futuro me plantee continuar dándole forma. Este proyecto es una excelente muestra de lo que se aprendió para desarrollar aplicaciones web interactivas y dinámicas con una alta eficiencia y calidad utilizando React y Firebase. ",
+        description:
+            "No tan macho es el proyecto final de un curso sobre React.Js, y su objetivo principal fué demostrar las habilidades y conocimientos adquiridos durante el curso. Aunque originalmente no se creó para funcionar como un negocio real, quizás en un futuro me plantee continuar dándole forma. Este proyecto es una excelente muestra de lo que se aprendió para desarrollar aplicaciones web interactivas y dinámicas con una alta eficiencia y calidad utilizando React y Firebase. ",
         technologies: [
             "react",
             "firebase",
@@ -71,11 +72,12 @@ export const proyectos: IProyectoWeb[] = [
             "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0000.png",
             "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0001.png",
             "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0002.png",
-            "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0003.png"
+            "/images/proyectos/ProyectoFinalBackendCoderhouse/ProyectoFinalBackendCoderhouse_0003.png",
         ],
         link: "https://proyectofinal-backendcoderhouse-production.up.railway.app/",
         github: "https://github.com/PedroCazala/proyectoFinal-backend_CoderHouse",
-        description: "El proyecto es una API de backend desarrollada con NodeJS y ExpressJS, diseñada para administrar una tienda e-commerce. La API está basada en una arquitectura RESTful y utiliza el motor de plantillas EJS para las vistas.    La persistencia de datos se realiza mediante el uso de MongoAtlas, aunque también es posible elegir otros métodos de almacenamiento, como el sistema de archivos, Firebase o la memoria, (utilizando los argumentos filesystem,firebase,memory o mongo, luego de: --storage en la línea de comandos.    La autenticación de las peticiones se realiza utilizando Passport, lo que permite una mayor seguridad en el manejo de datos de los usuarios.",
+        description:
+            "El proyecto es una API de backend desarrollada con NodeJS y ExpressJS, diseñada para administrar una tienda e-commerce. La API está basada en una arquitectura RESTful y utiliza el motor de plantillas EJS para las vistas.    La persistencia de datos se realiza mediante el uso de MongoAtlas, aunque también es posible elegir otros métodos de almacenamiento, como el sistema de archivos, Firebase o la memoria, (utilizando los argumentos filesystem,firebase,memory o mongo, luego de: --storage en la línea de comandos.    La autenticación de las peticiones se realiza utilizando Passport, lo que permite una mayor seguridad en el manejo de datos de los usuarios.",
         technologies: [
             "nodeJs",
             "express",
@@ -115,7 +117,7 @@ export const proyectos: IProyectoWeb[] = [
         link: "https://control-de-finanzas.netlify.app/",
         github: "https://github.com/PedroCazala/finanzas",
         description:
-        "Esta aplicación cuenta con varias paginas que les servirán al usuario con su economía. Es una herramienta que permitirá administrar sus finanzas y hacer planes a largo plazo. Además podría ser útil tanto para individuos como para empresas que quieren tener una visión clara y completa de sus finanzas y hacer planes para el futuro. Todavía está en proceso, la idea es agregarle mas secciones, en el caso de dividir gastos todavía no funciona.",
+            "Esta aplicación cuenta con varias paginas que les servirán al usuario con su economía. Es una herramienta que permitirá administrar sus finanzas y hacer planes a largo plazo. Además podría ser útil tanto para individuos como para empresas que quieren tener una visión clara y completa de sus finanzas y hacer planes para el futuro. Todavía está en proceso, la idea es agregarle mas secciones, en el caso de dividir gastos todavía no funciona.",
         technologies: [
             "react",
             "typescript",
@@ -151,7 +153,8 @@ export const proyectos: IProyectoWeb[] = [
         ],
         link: "https://pedrocazala.netlify.app",
         github: "https://github.com/PedroCazala/portafolio-pedrito",
-        description: "Este proyecto es un portfolio personal, para demostrar las habilidades adquiridas en el área de la programación. Construido como una SPA (Single Page Application), en React. Cuenta con diferentes secciones, entre las que se destacan proyectos (Aquí se pueden observar todos en forma de cards, pero al oprimir en ellos se lleva a una vista del proyecto particular, donde se explayan en información, detalles y enlaces a los sitios y/o repositorios), habilidades, educación, contacto (con la posibilidad de llenar un formulario, el cual requiere de un email y un mensaje, que a través de nodemailer llegarán a mi casilla de correo electrónico ambos datos. Además de enlaces a redes sociales. ), curriculum(Da la posibilidad de descargar el cv).",
+        description:
+            "Este proyecto es un portfolio personal, para demostrar las habilidades adquiridas en el área de la programación. Construido como una SPA (Single Page Application), en React. Cuenta con diferentes secciones, entre las que se destacan proyectos (Aquí se pueden observar todos en forma de cards, pero al oprimir en ellos se lleva a una vista del proyecto particular, donde se explayan en información, detalles y enlaces a los sitios y/o repositorios), habilidades, educación, contacto (con la posibilidad de llenar un formulario, el cual requiere de un email y un mensaje, que a través de nodemailer llegarán a mi casilla de correo electrónico ambos datos. Además de enlaces a redes sociales. ), curriculum(Da la posibilidad de descargar el cv).",
         technologies: [
             "react",
             "typescript",
@@ -167,16 +170,14 @@ export const proyectos: IProyectoWeb[] = [
     },
     {
         id: 6,
-        title: "Rayuela con React",
-        // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
+        title: "Backend de Rayuela",
+        // imgLogo:'https://www.rayu.com.ar/images/logo.png',
         // video: "https://www.youtube.com/embed/juxZrOVtg-c",
-        images: [
-            "/images/proyectos/RayuelaClient/RayuelaClient_0000.png",
-            "/images/proyectos/RayuelaClient/RayuelaClient_0001.png"
-        ],
+        images: ["/images/proyectos/RayuelaApi/RayuelaApi_0000.png"],
         link: "/sitio-no-disponible",
-        github:  "/sitio-no-disponible", //"https://github.com/PedroCazala/rayuela-client",
-        description: "En este proyecto, se está trabajando en el desarrollo de una aplicación del lado del cliente para mejorar nuestro negocio familiar. El objetivo es retomar el primer proyecto realizado con JavaScript, pero esta vez utilizando React JS para lograr una interfaz de usuario más elegante, rápida e intuitiva.",
+        github: "/sitio-no-disponible",
+        description:
+            "En este proyecto, se tiene como objetivo desarrollar una API REST para nuestro negocio, que permita manejar los productos, carritos, órdenes y usuarios. Además, se implementará la lógica de inicio de sesión para los usuarios.Este backend será realizado con Node Js.",
         technologies: [
             "react",
             "typescript",
@@ -192,15 +193,27 @@ export const proyectos: IProyectoWeb[] = [
     },
     {
         id: 7,
-        title: "Backend de Rayuela",
-        // imgLogo:'https://pedrocazala.github.io/Rayuela/images/Logo_3D_1920x1080p.png',
+        title: "Rayu con React",
+        imgLogo:'https://www.rayu.com.ar/images/logo.png',
         // video: "https://www.youtube.com/embed/juxZrOVtg-c",
         images: [
-            "/images/proyectos/RayuelaApi/RayuelaApi_0000.png",
+            "/images/proyectos/RayuClient/RayuClient_0000.png",
+            "/images/proyectos/RayuClient/RayuClient_0001.png",
+            "/images/proyectos/RayuClient/RayuClient_0002.png",
+            "/images/proyectos/RayuClient/RayuClient_0003.png",
+            "/images/proyectos/RayuClient/RayuClient_0004.png",
+            "/images/proyectos/RayuClient/RayuClient_0005.png",
+            "/images/proyectos/RayuClient/RayuClient_0006.png",
+            "/images/proyectos/RayuClient/RayuClient_0007.png",
+            "/images/proyectos/RayuClient/RayuClient_0008.png",
+            "/images/proyectos/RayuClient/RayuClient_0009.png",
         ],
-        link:  "/sitio-no-disponible",
-        github:  "/sitio-no-disponible",
-        description: "En este proyecto, se tiene como objetivo desarrollar una API REST para nuestro negocio, que permita manejar los productos, carritos, órdenes y usuarios. Además, se implementará la lógica de inicio de sesión para los usuarios.Este backend será realizado con Node Js.",
+        link: "https://www.rayu.com.ar",
+        github: "/sitio-no-disponible", //"https://github.com/PedroCazala/rayuela-client",
+        description:
+            `En este proyecto, se está trabajando en el desarrollo de una aplicación del lado del cliente para mejorar nuestro negocio familiar. El objetivo es retomar el primer proyecto realizado con JavaScript (en su momento se llamaba Rayuela), pero esta vez utilizando React JS para lograr una interfaz de usuario más elegante, rápida e intuitiva.
+            El proyecto ya se encuentra bastante avanzado.
+            Cuenta con responsive design, con sistema de logueo, carrito de compras, pagos con mercado pago y envíos a todo el país.`,
         technologies: [
             "react",
             "typescript",
@@ -209,9 +222,10 @@ export const proyectos: IProyectoWeb[] = [
             "scss",
             "git",
             "github",
-            "netlify",
+            "axios",
+            "aos",
             "responsive",
         ],
-        estado: "Por iniciar",
+        estado: "En proceso",
     },
 ];
